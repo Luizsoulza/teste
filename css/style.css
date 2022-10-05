@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(211, 211, 211);
+  background-size: auto 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+  background-color: white;
+  padding: 16px 32px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title,
+.site-subtitle {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
+
+h1 {
+  padding: 2rem 0;
+}
